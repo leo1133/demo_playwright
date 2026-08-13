@@ -6,6 +6,7 @@
   "scripts": {
     "codegen": "npx playwright codegen https://crm.anhtester.com/admin/authentication",
     "test": "npx playwright test",
+    "report": "npx playwright show-report",
     "test:debug": "npx playwright test --debug",
     "test:ui": "npx playwright test --ui",
     "test:ui:debug": "npx playwright test --ui --debug"
